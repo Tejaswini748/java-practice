@@ -14,7 +14,7 @@ public class SimplyAD {
         System.out.println("Enter D");
         d=sc.nextInt();
         A=((a+b)/c)+((c+d)/a);
-        System .out.println("Ans:"+A);
+        System.out.println("Ans:"+A);
         }
     
 }

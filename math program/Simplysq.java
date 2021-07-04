@@ -9,6 +9,6 @@ public class Simplysq {
         System.out.println("Enter B");
         b=sc.nextInt();
          A=a*a+2*a*b+b*b;
-        System .out.println("Ans:"+A);
+        System.out.println("Ans:"+A);
         }
     }
