@@ -1,40 +1,40 @@
 import java.util.Scanner;
 public class percentage {
  public static void main(String[] args){
-     float eng,hindi,marathi,phy,chem,science, total,percentage,Gp,cgpa;
+     float sub1,sub2,sub3,sub4,sub5,sub6, total,percentage,Gp,cgpa;
      Scanner sc=new Scanner(System.in);
      System.out.println("Enter marks of six subject");
-     System.out.println("Enter marks of eng");
-     eng=sc.nextFloat();
-     System.out.println("Enter marks of hindi ");
-     hindi=sc.nextFloat();
-     System.out.println("Enter marks of marathi ");
-     marathi=sc.nextFloat();
-     System.out.println("Enter marks of phy ");
-     phy=sc.nextFloat();
-     System.out.println("Enter marks of chem ");
-     chem=sc.nextFloat();
-     System.out.println("Enter marks of science ");
-     science=sc.nextFloat();
-     total=eng+hindi+marathi+phy+chem+science;
+     System.out.println("Enter marks of sub1");
+     sub1=sc.nextFloat();
+     System.out.println("Enter marks of sub2 ");
+     sub2=sc.nextFloat();
+     System.out.println("Enter marks of sub3 ");
+     sub3=sc.nextFloat();
+     System.out.println("Enter marks of sub4 ");
+     sub4=sc.nextFloat();
+     System.out.println("Enter marks of sub5 ");
+     sub5=sc.nextFloat();
+     System.out.println("Enter marks of sub6 ");
+     sub6=sc.nextFloat();
+     total=sub1+sub2+sub3+sub4+sub5+sub6;
      percentage=(total/600)*100;
-     System.out .println("percentage= "+percentage);
+     System.out.println("percentage= "+percentage);
      if (percentage>90){
          System.out.println("Grade A");
      }
-     if ((percentage>70)&&(percentage<90)){
+     else if ((percentage>70)){
         System.out.println("Grade B");
     }
-    if ((percentage>45&&(percentage<70)){
+    else if ((percentage>45)){
         System.out.println("Grade C");
     }
-    if((percentage>35)&&(percentage<45)) {
+    else if((percentage>35)) {
         System.out.println("Grade D");
     }
-    if (percentage<35){
+   else {
         System.out.println("Grade E");
     }
-         Gp=(eng/10)+(hindi/10)+(marathi/10)+(phy/10)+(chem/10)+(science/10);
+         Gp=(sub1/10)+(sub2/10)+(sub3/10)+(sub4/10)+(sub5/10)+(sub6/10);
      cgpa=(Gp/6);
      System.out.println("cgpa ="+cgpa);
  }   

@@ -4,7 +4,7 @@ public class Fix {
     public static void main(String[] args){
         int i;
         float a,I,J;
-        String str,k;
+        String str;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter integer value");
         i=sc.nextInt();
@@ -14,10 +14,9 @@ public class Fix {
         str=sc.next();
        I=i+a;
        System.out.println(" sum of first two no is "+ I);
-       J=a*a;
+       J=a*2;
        System.out.println(" Double of second  no is "+ J);
-       k=str;
-       System.out.println(" MY Name Is "+ k);
+              System.out.println(" MY Name Is "+ str);
     }
     
 }
