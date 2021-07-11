@@ -5,13 +5,13 @@ public class Leapyr {
      Scanner sc=new Scanner(System.in);
      System.out.println("Enterthe year");
      year=sc.nextInt();
-     {if(((yr%4==0)&&(yr%100!=0))||(yr%400==0))
+     if(((year%4==0)&&(year%100!=0))||(year%400==0))
         {
            
          System.out.println("Year is leap year");
                 
         }
-    }else
+    else
      {
          System.out.println ("Year is not a leap year");
      }
