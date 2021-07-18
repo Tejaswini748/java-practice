@@ -11,7 +11,8 @@ public class Div57 {
                 {
                     System.out.println(i);
                     
-                }i++;
+                }
+                
             } 
             
         }
